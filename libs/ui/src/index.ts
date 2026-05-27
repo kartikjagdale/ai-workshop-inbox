@@ -1,1 +1,11 @@
-export { CardComponent, CardEmail } from './lib/card/card.component';
+export { IconComponent } from './lib/icon/icon.component';
+export { TagComponent } from './lib/tag/tag.component';
+export type { TagVariant } from './lib/tag/tag.component';
+export { MenuItemComponent } from './lib/menu-item/menu-item.component';
+export { MenuBarComponent } from './lib/menu-bar/menu-bar.component';
+export type { MenuFolder, MenuCategory } from './lib/menu-bar/menu-bar.component';
+export { CardComponent } from './lib/card/card.component';
+export type { CardEmail } from './lib/card/card.component';
+export { TabButtonComponent } from './lib/tab-button/tab-button.component';
+export { IconButtonComponent } from './lib/icon-button/icon-button.component';
+export { ToggleComponent } from './lib/toggle/toggle.component';
