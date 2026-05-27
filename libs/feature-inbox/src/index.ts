@@ -1,1 +1,1 @@
-// @kw-inbox/feature-inbox — inbox feature page
+export { InboxPageComponent } from './lib/inbox-page/inbox-page.component';
