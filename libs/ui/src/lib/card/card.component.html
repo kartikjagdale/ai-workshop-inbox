@@ -1,0 +1,14 @@
+<div class="card" [class.unread]="!isRead" (click)="onClick()">
+  <div class="card-header">
+    <div class="sender-info">
+      <span class="sender-name">{{ senderName }}</span>
+      <span *ngIf="!isRead" class="unread-dot"></span>
+    </div>
+    <span class="timestamp">{{ formattedDate }}</span>
+  </div>
+  <div class="card-subject">{{ subject }}</div>
+  <div class="card-preview">{{ preview }}</div>
+  <div class="card-labels" *ngIf="labels.length > 0">
+    <span *ngFor="let label of labels" class="label">{{ label }}</span>
+  </div>
+</div>
