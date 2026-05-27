@@ -1,0 +1,18 @@
+{
+  "_comment": "Copy this file to settings.local.json and adjust as needed",
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx nx *)",
+      "Bash(git *)",
+      "Bash(mkdir *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(find *)"
+    ]
+  },
+  "env": {
+    "_comment_figma": "Set your Figma token if using Figma MCP",
+    "FIGMA_PERSONAL_ACCESS_TOKEN": ""
+  }
+}
