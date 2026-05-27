@@ -1,1 +1,1 @@
-// @kw-inbox/ui — design system components
+export { CardComponent, CardEmail } from './lib/card/card.component';
